@@ -4,12 +4,21 @@ import "./styles.css";
 export default function App() {
   var emojiDictionary = {
     "😀": "Smile",
-    "😐": "Neutral",
-    "❤️": "Heart",
-    "🔥": "Fire",
+    "😑": "annoyance",
     "🥴": "Drunk",
     "🥰": "In Love",
-    "🥺": "Pleading"
+    "🥺": "Pleading",
+    "🥡": "takeout box",
+    "❤️": "love",
+    "😆": "Laughing",
+    "😇": "Innocent",
+    "😘": "Kissing heart",
+    "😋": "Yum",
+    "😐️": "Neutral face",
+    "🙃": "Expressionless",
+    "😶": "No mouth",
+    "😴": "Sleeping face",
+    "🔥": "Fire"
   };
   var emojiWeKnow = Object.keys(emojiDictionary);
   var [meaning, setMeaning] = useState("");
